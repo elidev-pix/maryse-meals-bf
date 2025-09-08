@@ -941,7 +941,7 @@ footer{
 .footer_top img{
   position: absolute;
   top: 10px;
-  left: 170px;
+  left: 300px;
   justify-content: center;
   align-items: center;
   max-width: 150px;
@@ -953,7 +953,7 @@ footer{
 .footer_top .links{
   position: relative;
   top: 100px;
-  left: 80px;
+  left: 10px;
   margin: 0;
   padding: 0;
 }
@@ -981,7 +981,7 @@ footer{
 .footer_top .socials .logo{
   position: absolute;
   top: 10px;
-  right: 150px;
+  right: 120px;
   justify-content: center;
   align-items: center;
 }
@@ -994,7 +994,7 @@ footer{
 .footer_top .contact{
   position: relative;
   top: 100px;
-  right: 80px;
+  right: 10px;
   margin: 0;
   padding: 0;
 }
@@ -1585,14 +1585,14 @@ footer{
 
 .about #logo{
   position: relative;
-  max-width: 100px;
-  height: 45px;
+  max-width: 150px;
+  height: 75px;
 }
 
 .about #person{
   position: relative;
-  width: 75px;
-  height: 75px;
+  width: 200px;
+  height: 200px;
   border-radius: 15px;
   padding: 5px;
 }
@@ -1621,5 +1621,37 @@ footer{
   
 }
 
+
+.comments_top input{
+  width: 120px;
+}
+
+
+#email {
+  width: 290px
+
+}
+
+#comment {
+  width: 290px;
+
+
+}
+
+.comments button{
+  position: relative;
+  background-color: #e9977a;
+  color: white;
+  border: none;
+  font-family: Outfit, sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.comments button:hover{
+  transform: scale(0.9);
+}
 
 }
